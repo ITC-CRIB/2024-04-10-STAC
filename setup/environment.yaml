@@ -1,0 +1,11 @@
+name: stac
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - rioxarray
+  - geopandas
+  - pillow
+  - matplotlib
+  - descartes
+  - pystac-client
