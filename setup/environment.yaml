@@ -8,4 +8,5 @@ dependencies:
   - pillow
   - matplotlib
   - descartes
+  - leafmap
   - pystac-client
