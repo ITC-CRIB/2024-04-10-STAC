@@ -1,0 +1,75 @@
+{
+	"type": "Feature",
+	"stac_version": "1.0.0",
+	"stac_extensions": [],
+	"id": "Copernicus_DSM_N52_15_E006_70_DEM",
+	"geometry": {
+    "type": "Polygon",
+		"coordinates": [
+			[[6.699791666666667, 52.15013888888889],
+			[6.979791666666667, 52.15013888888889],
+			[6.979791666666667, 52.330138888888889],
+			[6.699791666666667, 52.330138888888889],
+			[6.699791666666667, 52.15013888888889]]
+		]
+  },
+	"bbox": [
+		6.6997916666666670,
+		52.1501388888888897,
+		6.9797916666666673,
+		52.3301388888888894
+	],
+	"properties": {
+		"datetime": "2019-01-01T00:00:00Z",
+    "platform": "tandem-x",
+    "gsd": 30,
+    "proj:epsg": 4326,
+    "proj:transform": [0.00041666666666666664, 0, 5.999791666666667, 0, -0.0002777777777777778, 53.00013888888889],
+    "proj:shape": [3600, 2400],
+    "proj:centroid": {
+      "lat": 52.5,
+      "lon": 6.5
+    }		
+	},
+	"links": [
+		{
+			"rel": "root",
+			"href": "../../catalog.json",
+			"type": "application/json"
+		},
+		{
+			"rel": "self",
+			"href": "https://github.com/ITC-CRIB/2024-04-10-STAC/blob/main/catalog/cop-dem-glo-30/Copernicus_DSM_N52_15_E006_70_DEM/item.json",
+			"type": "application/geo+json"
+		},
+		{
+			"rel": "parent",
+			"href": "../collection.json",
+			"type": "application/json"
+		},
+		{
+			"rel": "collection",
+			"href": "../collection.json",
+			"type": "application/json"			
+		}
+	],
+	"assets": {
+		"data": {
+			"href": "https://github.com/ITC-CRIB/2024-04-10-STAC/blob/main/catalog/cop-dem-glo-30/Copernicus_DSM_N52_15_E006_70_DEM/Copernicus_DSM_N52_15_E006_70_DEM.tif",
+			"title": "Data",
+			"type": "image/tiff; application=geotiff",
+			"roles": [
+				"data"
+			]
+		},
+		"thumbnail": {
+			"href": "./thumbnail.jpg",
+			"title": "Thumbnail",
+			"type": "image/jpeg",
+			"roles": [
+				"thumbnail"
+			]
+		}
+	},
+	"collection": "cop-dem-glo-30"
+}
