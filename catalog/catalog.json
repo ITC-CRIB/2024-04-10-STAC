@@ -7,7 +7,7 @@
 	"description": "A STAC catalog of public datasets on Enschede",
 	"links": [
 		{
-			"href": "https://github.com/ITC-CRIB/2024-04-10-STAC/blob/main/catalog/catalog.json",
+			"href": "https://raw.githubusercontent.com/ITC-CRIB/2024-04-10-STAC/blob/main/catalog/catalog.json",
 			"rel": "self",
 			"type": "application/json"
 		},

@@ -28,7 +28,7 @@
 	"links": [
 		{
 			"rel": "self",
-			"href": "https://github.com/ITC-CRIB/2024-04-10-STAC/blob/main/catalog/cop-dem-glo-30/collection.json",
+			"href": "https://raw.githubusercontent.com/ITC-CRIB/2024-04-10-STAC/blob/main/catalog/cop-dem-glo-30/collection.json",
 			"type": "application/json"
 		},
 		{
