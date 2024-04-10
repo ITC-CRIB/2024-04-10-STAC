@@ -1,0 +1,26 @@
+{
+	"type": "Catalog",
+	"stac_version": "1.0.0",
+	"stac_extension": [],
+	"id": "enschede",
+	"title": "Enschede Data Cube",
+	"description": "A STAC catalog of public datasets on Enschede",
+	"links": [
+		{
+			"href": "https://crib-stac.s3.ap-southeast-1.amazonaws.com/catalog/catalog.json",
+			"rel": "self",
+			"type": "application/json"
+		},
+		{
+			"href": "./catalog.json",
+			"rel": "root",
+			"type": "application/json"
+		},
+		{
+			"rel": "child",
+			"href": "./cop-dem-glo-30/collection.json",
+			"type": "application/json",
+			"title": "Copernicus DEM GLO-30"
+		}
+	]
+}
